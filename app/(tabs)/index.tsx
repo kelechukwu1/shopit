@@ -49,7 +49,7 @@ export default function HomeScreen() {
         </View>
         <BackNav text='Technology' />
 
-        <Text style={styles.subCategoryTitle}>Smartphones, Laptops & Accessories</Text>
+        <Text style={styles.subCategoryTitle}>{[...new Set(filteredProducts.map(item => item.category))].join(", ")}</Text>
 
         {loading ? (
           <View style={styles.loadingContainer}>

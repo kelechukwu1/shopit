@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kelechukwu.e-commerce-task"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+        "package": "com.kelechukwu.e-commerce-task",
       "edgeToEdgeEnabled": true
     },
     "web": {
@@ -40,7 +42,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {},
+      "router":  { },
       "eas": {
         "projectId": "7cb82b78-d6f3-4cfd-bda6-11cf92abcd3b"
       }
