@@ -10,14 +10,14 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kelechukwu.e-commerce-task"
+      "bundleIdentifier": "com.kelechukwu.ecommercetask"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-        "package": "com.kelechukwu.e-commerce-task",
+        "package": "com.kelechukwu.ecommercetask",
       "edgeToEdgeEnabled": true
     },
     "web": {
